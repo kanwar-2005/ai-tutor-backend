@@ -10,7 +10,7 @@ const port = 8000; // You can use any port you prefer
 
 // --- Middleware ---
 // Enable CORS for your React frontend
-app.use(cors({ origin: 'https://ai-tutor-by-kanwar.vercel.app/' }));
+app.use(cors({ origin: 'https://ai-tutor-by-kanwar.vercel.app' }));
 // Enable parsing of JSON request bodies
 app.use(express.json());
 
