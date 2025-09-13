@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS conversations (id BIGSERIAL PRIMARY KEY,user_question TEXT NOT NULL,model_answer TEXT NOT NULL,created_at TIMESTAMPTZ DEFAULT NOW());
